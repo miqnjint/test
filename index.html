@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/queries.css" />
+
+    <title>Amazing Tours</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="hero-section">
+        <div class="container hero-content">
+          <div class="header-section">
+            <nav class="header-navigation">
+              <h1 class="logo">Amazing<span>Tours</span></h1>
+
+              <ul class="navigation-items">
+                <li class="navigation-item">
+                  <a onclick="closeTabHeader();" href="#welcome-section"
+                    >Willkommen</a
+                  >
+                </li>
+                <li class="navigation-item">
+                  <a onclick="closeTabHeader();" href="#offer-section"
+                    >Unsere Angebote</a
+                  >
+                </li>
+                <li class="navigation-item">
+                  <a onclick="closeTabHeader();" href="#team-section"
+                    >Unser Team</a
+                  >
+                </li>
+                <li class="navigation-item">
+                  <a onclick="closeTabHeader();" href="#about-section"
+                    >Über uns</a
+                  >
+                </li>
+                <li class="navigation-item">
+                  <a onclick="closeTabHeader();" href="#contact-section"
+                    >Kontakt</a
+                  >
+                </li>
+              </ul>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="button mobile-icon open h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="button mobile-icon close h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </nav>
+          </div>
+
+          <div class="hero-main-content">
+            <h1 class="hero-title">
+              Erleben Sie jetzt das Abenteuer ihres Lebens!
+            </h1>
+            <p class="hero-info">
+              Wollen sie Ihr Leben verbessern und einfach mal abschalten? Dann
+              ist AmazingTours ihr Mittel zur Wahl, denn wir bieten Ihnen
+              wunderschöne und professionelle Touren zum abschalten und
+              entspannen an!
+            </p>
+
+            <a class="hero-link" href="#">&darr; Mehr Erfahren</a>
+          </div>
+
+          <div class="hero-go-down">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
+                /></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="container welcome-section" id="welcome-section">
+        <div class="welcome-holder">
+          <div class="welcome-card">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="welcome-icon h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            <h1 class="welcome-title">Umwelt Freundlich</h1>
+            <p class="welcome-text">
+              Unsere Touren sind zu 100% Umwelt Freundlich. Es wird kein Müll
+              oder sonstiges während den Touren liegen gelassen. Außerdem wird
+              jeder Weg zu Fuß gelaufen!
+            </p>
+          </div>
+          <div class="welcome-card">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="welcome-icon h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
+              />
+            </svg>
+            <h1 class="welcome-title">Ausgewählte Orte</h1>
+            <p class="welcome-text">
+              Jede unserer Touren bietet Ihnen einen Wow Faktor, denn wir
+              kümmern uns immer darum neue Touren und Wander Pläne zu erstellen
+              und zu planen. Damit Ihre Tour eine Erinnerung wird!
+            </p>
+          </div>
+          <div class="welcome-card">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="welcome-icon h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
+              />
+            </svg>
+            <h1 class="welcome-title">Preiswert & Gerecht</h1>
+            <p class="welcome-text">
+              Jegliche Touren, die wir Ihnen anbieten sind zu 100% preiswert und
+              werden gerecht gestalltet. Somit befindet sich in unseren Preisen
+              die Unterkunft und die Verpflegung!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section">
+        <div class="container gallery-content">
+          <div class="gallery-text-content">
+            <h2 class="gallery-secondary-title">Schöne Touren im Blick</h2>
+            <h1 class="gallery-primary-title">
+              Wir bieten Ihnen wunderschöne Touren:
+            </h1>
+            <p class="gallery-text">
+              Sie glauben uns nicht? Machen Sie sich doch selbst ein Bild, indem
+              sie unsere Bilder Gallerie betrachten. Denn wir bieten nur
+              hochqualitative Touren an. Die auch ein absolutes Erlebnis für Sie
+              werden.
+            </p>
+
+            <a class="gallery-link" href="#">&rarr; Mehr Erfahren</a>
+          </div>
+          <img
+            class="gallery-img"
+            src="bilder/gallery-img.png"
+            alt="Gallery Bild"
+          />
+        </div>
+      </section>
+
+      <section class="offer-section" id="offer-section">
+        <h2 class="section-heading-secondary">Unsere Angebote</h2>
+        <h1 class="section-heading-primary">
+          Hier finden Sie unsere Touren, die wir anbieten:
+        </h1>
+        <div class="container offer-content">
+          <div class="offer-card">
+            <img
+              class="offer-img"
+              src="bilder/wald_tour.jpg"
+              alt="Wald Tour Bild"
+            />
+            <div class="offer-card-text-content">
+              <h2 class="offer-secondary-title">Wald Tour</h2>
+              <ul class="offer-info-list">
+                <li>Bis zu 20 Personen</li>
+                <li>Verpflegung + Unterkunft</li>
+                <li>2 Tour Guides</li>
+                <li>5 Tage Wald Tour</li>
+                <li>Schöne Landschaften</li>
+              </ul>
+            </div>
+            <a class="offer-link" href="#">Jetzt Buchen</a>
+          </div>
+          <div class="offer-card">
+            <img
+              class="offer-img"
+              src="bilder/schnee_tour.jpg"
+              alt="Schnee Tour Bild"
+            />
+            <div class="offer-card-text-content">
+              <h2 class="offer-secondary-title">Schnee Tour</h2>
+              <ul class="offer-info-list">
+                <li>Bis zu 10 Personen</li>
+                <li>Verpflegung + Unterkunft</li>
+                <li>3 Tour Guides</li>
+                <li>3 Tage Schnee Tour</li>
+                <li>Schöne Landschaften</li>
+              </ul>
+            </div>
+            <a class="offer-link" href="#">Jetzt Buchen</a>
+          </div>
+          <div class="offer-card">
+            <img
+              class="offer-img"
+              src="bilder/berg_tour.jpg"
+              alt="Berg Tour Bild"
+            />
+            <div class="offer-card-text-content">
+              <h2 class="offer-secondary-title">Berg Tour</h2>
+              <ul class="offer-info-list">
+                <li>Bis zu 18 Personen</li>
+                <li>Verpflegung + Unterkunft</li>
+                <li>3 Tour Guides</li>
+                <li>8 Tage Berg Tour</li>
+                <li>Schöne Landschaften</li>
+              </ul>
+            </div>
+            <a class="offer-link" href="#">Jetzt Buchen</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="team-section" id="team-section">
+        <h2 class="section-heading-secondary">Unser Team</h2>
+        <h1 class="section-heading-primary">
+          Hier finden Sie unser professionelles Team:
+        </h1>
+        <div class="container team-content">
+          <div class="team-card">
+            <div class="team-img-box">
+              <img
+                src="bilder/team/teamA.jpg"
+                alt="Martin Kaufmann Profilbild"
+              />
+            </div>
+            <div class="team-text-content">
+              <h2 class="team-job">Geschätsführer</h2>
+              <h1 class="team-name">Martin Kaufmann</h1>
+
+              <p class="team-info">
+                Mein Name ist Martin Kaufmann und ich bin Ihr Ansprechpartner
+                und Geschäftsführer bei AmazingTours!
+              </p>
+
+              <a class="team-contact" href="#">&rarr; Mich Kontaktieren</a>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-img-box">
+              <img src="bilder/team/teamB.jpg" alt="Markus Müller Profilbild" />
+            </div>
+            <div class="team-text-content">
+              <h2 class="team-job">Tour Guide</h2>
+              <h1 class="team-name">Markus Müller</h1>
+
+              <p class="team-info">
+                Hi! Mein Name ist Markus Müller und ich bin einer der Tour
+                Guides, der Sie durch Ihre Touren begleitet!
+              </p>
+
+              <a class="team-contact" href="#">&rarr; Mich Kontaktieren</a>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-img-box">
+              <img src="bilder/team/teamC.jpg" alt="Karina Baum Profilbild" />
+            </div>
+            <div class="team-text-content">
+              <h2 class="team-job">Tour Guide</h2>
+              <h1 class="team-name">Karina Baum</h1>
+
+              <p class="team-info">
+                Hallo, mein Name ist Karina Baum. Ich liebe die Natur und kann
+                es kaum erwarten sie Ihnen zu zeigen!
+              </p>
+
+              <a class="team-contact" href="#">&rarr; Mich Kontaktieren</a>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-img-box">
+              <img src="bilder/team/teamD.jpg" alt="Lilly Shariam Profilbild" />
+            </div>
+            <div class="team-text-content">
+              <h2 class="team-job">Tour Guide</h2>
+              <h1 class="team-name">Lilly Shariam</h1>
+
+              <p class="team-info">
+                Mein Name ist Lilly Shariam und ich bin ein absoluter Fan von
+                der Natur, buchen sie jetzt Ihre Tour!
+              </p>
+
+              <a class="team-contact" href="#">&rarr; Mich Kontaktieren</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about-section">
+        <div class="container about-content">
+          <div class="about-card">
+            <div class="about-card-content">
+              <h2 class="about-secondary-title">Unser Team</h2>
+              <h1 class="about-primary-title">
+                Über unsere wanderungs Spezialisten:
+              </h1>
+
+              <p class="about-text">
+                Wir bieten Ihnen 100% Erfahrung, dies heißt jeder unserer Tour
+                Guides hat eine professionelle Ausbildung in Touren. Somit wird
+                es niemals langweilig. Außerdem sind unsere Spazialisten in Not
+                für die da, falls Sie sich verletzten sollten, jeder Tour Guide
+                bei uns hat eine Erstehilfe Ausbildung. Schlussendlich sind
+                unsere Tour Guides auch nette Gesprächspartner!
+              </p>
+            </div>
+            <img
+              class="about-img"
+              src="bilder/about-img1.jpg"
+              alt="About Image 1"
+            />
+          </div>
+          <div class="about-card">
+            <img
+              class="about-img"
+              src="bilder/about-img2.jpg"
+              alt="About Image 2"
+            />
+            <div class="about-card-content">
+              <h2 class="about-secondary-title">Unsere Touren</h2>
+              <h1 class="about-primary-title">
+                Über unsere wunderschönen Touren:
+              </h1>
+
+              <p class="about-text">
+                Jede unserer professionellen geplanten Touren, werden ausgesucht
+                und geplant. Denn wir wollen Ihnen jedesmal ein Erlebnis bieten,
+                denn wir setzten auf Enstpannung & Zufriedenheit. Sollten sie
+                nicht zu 100% zufrieden sein erhalten sie 50% von Ihrem Geld
+                zurück!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="review-section">
+        <h2 class="section-heading-secondary">Tour Bewertungen</h2>
+        <h1 class="section-heading-primary">
+          Das sagen Kunden über unseren Service:
+        </h1>
+        <div class="container review-content">
+          <div class="review-card">
+            <h2 class="review-count">Bewertung #01</h2>
+            <h1 class="review-author">Max Müller</h1>
+
+            <p class="review-text">
+              WOW! Einfach ein pures Erlebnis, meine Kinder fanden es auch
+              super. Würde es jedem weiterempfehlen.
+            </p>
+
+            <div class="review-stars">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="review-card">
+            <h2 class="review-count">Bewertung #02</h2>
+            <h1 class="review-author">Lena Zaun</h1>
+
+            <p class="review-text">
+              Ich fande es Super, war mit meinem Mann dort. Das Geld hat sich
+              aufjedenfall gelohnt.
+            </p>
+
+            <div class="review-stars">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="review-card">
+            <h2 class="review-count">Bewertung #03</h2>
+            <h1 class="review-author">Olaf Wassermann</h1>
+
+            <p class="review-text">
+              Ich habe die Schnee Tour gebucht und ich fande es einfach
+              atemberaubend schön.
+            </p>
+
+            <div class="review-stars">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="review-card">
+            <h2 class="review-count">Bewertung #04</h2>
+            <h1 class="review-author">Sarah Käfer</h1>
+
+            <p class="review-text">
+              Ich buchte die Berg Tour und war begeistert von der Tour und der
+              Begleitung!
+            </p>
+
+            <div class="review-stars">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact-section">
+        <div class="container">
+          <form class="contact-form">
+            <div class="contact-card">
+              <h1 class="contact-card-title">Kontaktieren Sie uns!</h1>
+              <p class="contact-card-text">
+                Haben Sie noch weitere Fragen? <br />
+                Kein Problem, schreiben Sie uns doch einfach eine Nachricht!
+              </p>
+              <div class="grid-contact">
+                <div class="contact-info">
+                  <input
+                    name="name"
+                    id="name"
+                    type="text"
+                    class="contact-feedback-input"
+                    placeholder="Name"
+                  />
+                  <input
+                    name="email"
+                    id="email"
+                    type="text"
+                    class="contact-feedback-input"
+                    placeholder="E-Mail"
+                  />
+                </div>
+                <textarea
+                  name="message"
+                  id="message"
+                  class="contact-feedback-input"
+                  placeholder="Ihre Nachricht"
+                ></textarea>
+                <input type="submit" value="Nachricht Senden" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-holder">
+          <div class="footer-card">
+            <h1 class="footer-title">Social Media</h1>
+            <ul class="footer-navigation">
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Youtube</a></li>
+            </ul>
+          </div>
+          <div class="footer-card">
+            <h1 class="footer-title">Kontakt</h1>
+            <address class="address-info">
+              <p class="address-item">
+                Mustermann Straße 123, Berlin 50021, Deutschland
+              </p>
+              <p class="address-item">+49 000-0000-0000</p>
+              <p class="address-item">info@amazingtours.com</p>
+            </address>
+          </div>
+          <div class="footer-card">
+            <h1 class="footer-title">Homepage</h1>
+            <ul class="footer-navigation">
+              <li><a href="#">Willkommen</a></li>
+              <li><a href="#">Unsere Angebote</a></li>
+              <li><a href="#">Unser Team</a></li>
+              <li><a href="#">Über uns</a></li>
+              <li><a href="#">Kontakt</a></li>
+            </ul>
+          </div>
+          <div class="footer-card">
+            <h1 class="footer-title">Rechtlich</h1>
+            <ul class="footer-navigation">
+              <li><a href="#">Impressum</a></li>
+              <li><a href="#">Datenschutz</a></li>
+              <li><a href="#">Wiederrufsrecht</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="copyright-text">
+          Copyright by Vincent Krause &copy; All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="javascript/javascript.js"></script>
+  </body>
+</html>
